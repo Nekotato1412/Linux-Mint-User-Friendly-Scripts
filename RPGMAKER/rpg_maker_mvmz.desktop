@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=RPG Maker MV/MZ
+Exec=env gamef="%f" /home/cinnamon/desktopapps/nwjs/nwjs/packagefiles/nwjsstart-cicpoffs.sh --chooselatestnwjs
+Type=Application
+Categories=Games
+StartupNotify=true
+MimeType=application/x-ms-dos-executable;application/x-wine-extension-msp;
+Icon=rpgmaker_mz
+Terminal=true
+NoDisplay=true

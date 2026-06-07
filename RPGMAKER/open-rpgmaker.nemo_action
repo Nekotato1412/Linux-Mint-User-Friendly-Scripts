@@ -1,0 +1,8 @@
+[Nemo Action]
+Name=Run as RPG Maker MV/MZ
+Comment=Launch Game.exe with RPG Maker Launcher
+Exec=env gamef="%F" /home/cinnamon/desktopapps/nwjs/nwjs/packagefiles/nwjsstart-cicpoffs.sh --chooselatestnwjs
+Icon-Name=rpgmaker_mz
+Selection=s
+Extensions=exe;
+Files=Game.exe;

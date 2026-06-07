@@ -11,6 +11,7 @@ sudo chmod +x ~/.local/share/nemo/actions/wine-open.nemo_action
 echo "Making WINE the default application.."
 sudo xdg-mime default ~/.local/share/applications/wine.desktop application/x-ms-dos-executable
 sudo xdg-mime default ~/.local/share/applications/wine.desktop application/x-msdownload
+sudo xdg-mime default ~/.local/share/applications/wine.desktop application/vnd.microsoft.portable-executable
 echo "OK."
 read -p "Hit ENTER to refresh and close."
 update-desktop-database ~/.local/share/applications/
