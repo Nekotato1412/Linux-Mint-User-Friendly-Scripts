@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=WINE Compatibility Layer
+Exec=wine %f
+Icon=wine
+MimeType=application/x-ms-dos-executable;application/x-msdos-program;
+Terminal=false
+NoDisplay=true
+StartupNotify=true
+StartupWMClass=Wine
+X-Nemo-Default-Action=open

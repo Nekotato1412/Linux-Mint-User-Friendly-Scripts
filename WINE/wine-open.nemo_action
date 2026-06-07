@@ -1,0 +1,7 @@
+[Nemo Action]
+Name=Run with WINE Compatibility Layer
+Exec=wine %F
+Icon-Name=wine
+Selection=s
+Extensions=exe;
+IsDefault=true
