@@ -13,7 +13,7 @@ sudo xdg-mime default ~/.local/share/applications/wine.desktop application/x-ms-
 sudo xdg-mime default ~/.local/share/applications/wine.desktop application/x-msdownload
 sudo xdg-mime default ~/.local/share/applications/wine.desktop application/vnd.microsoft.portable-executable
 echo "OK."
-read -p "Hit ENTER to refresh and close."
+read -p "OK. Press ENTER to refresh and close."
 update-desktop-database ~/.local/share/applications/
 update-mime-database ~/.local/share/mime/
 nemo -q && nemo &
