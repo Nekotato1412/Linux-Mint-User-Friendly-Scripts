@@ -1,4 +1,7 @@
 #!/bin/bash
+echo "Installing WINE.."
+sudo apt install wine
+sudo apt install wine64
 echo "Creating a launcher for WINE.."
 cp ./wine.desktop ~/.local/share/applications/wine.desktop
 sudo chmod +x ~/.local/share/applications/wine.desktop
